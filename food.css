@@ -1,0 +1,41 @@
+
+
+
+
+
+.food_banner{
+
+  height:70vh;
+  /*background-image:url("img/food/banner_food.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:top center;
+  background:rgba(82,42,115,0.5);*/
+  background: linear-gradient(rgba(36,2,64,0.7), rgba(36,2,64,0.7)), url(img/food/banner_food.png) no-repeat center / cover; 
+
+}
+.food_banner .food_banner_sub{
+  padding-top: 30vh;
+  padding-left: 10%;
+  text-align: left;
+  margin: auto 0 !important;
+  vertical-align: center;
+
+}
+.banner_head{
+  margin:auto 0 !important;
+  color:#19c0d0;
+  font-size: 48px;
+  transform: scale(1, .87);
+  line-height: .8;
+  vertical-align: center;
+
+}
+.banner_sub{
+  color:#fff;
+}
+.food_banner_cnt{
+  padding-top: 2%;
+  color:#fff;
+}
+
